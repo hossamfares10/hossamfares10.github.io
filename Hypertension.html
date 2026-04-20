@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="light" lang="ar" dir="rtl"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>أتيليه الاستشفاء | رعاية ضغط الدم</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Public+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed": "#a9edff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#b8c8d9",
+                    "on-error": "#ffffff",
+                    "on-tertiary-fixed-variant": "#394956",
+                    "on-primary-fixed": "#001f26",
+                    "outline": "#6f797c",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#006778",
+                    "on-tertiary-fixed": "#0d1d29",
+                    "primary": "#004d5b",
+                    "tertiary-fixed": "#d4e4f5",
+                    "on-secondary-fixed": "#00201d",
+                    "on-tertiary-container": "#c8d9e9",
+                    "outline-variant": "#bec8cb",
+                    "surface-container-low": "#f2f4f5",
+                    "on-primary-fixed-variant": "#004e5c",
+                    "secondary-fixed-dim": "#90d3ca",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed-variant": "#00504a",
+                    "surface-container-high": "#e6e8e9",
+                    "surface-tint": "#026879",
+                    "secondary": "#236962",
+                    "surface-dim": "#d8dadb",
+                    "tertiary-container": "#4f5f6d",
+                    "surface-variant": "#e1e3e4",
+                    "surface": "#f8fafb",
+                    "surface-bright": "#f8fafb",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#a9ece4",
+                    "error-container": "#ffdad6",
+                    "background": "#f8fafb",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#3f484b",
+                    "secondary-fixed": "#acefe6",
+                    "on-surface": "#191c1d",
+                    "surface-container": "#eceeef",
+                    "surface-container-highest": "#e1e3e4",
+                    "inverse-primary": "#86d2e5",
+                    "tertiary": "#384755",
+                    "primary-fixed-dim": "#86d2e5",
+                    "on-background": "#191c1d",
+                    "on-secondary-container": "#286d66",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#97e3f6",
+                    "inverse-surface": "#2e3132",
+                    "inverse-on-surface": "#eff1f2"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Public Sans"],
+                    "label": ["Public Sans"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { min-height: max(884px, 100dvh); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-container">
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl flex items-center justify-between px-6 py-4 w-full shadow-xl shadow-teal-900/5">
+<div class="flex items-center gap-4">
+<h1 class="font-['Manrope'] text-xl font-extrabold text-teal-900 dark:text-teal-50">صحة المجتمع</h1>
+</div>
+<div class="flex items-center gap-6">
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-label text-sm font-semibold text-slate-500 hover:text-teal-700 transition-colors" href="Home.html">الكبد</a>
+<a class="font-label text-sm font-semibold text-teal-700" href="Hypertension.html">ضغط الدم</a>
+<a class="font-label text-sm font-semibold text-slate-500 hover:text-teal-700 transition-colors" href="Diabetes.html">السكري</a>
+</nav>
+</div>
+</header>
+<main class="pt-24 pb-32 px-4 md:px-12 max-w-7xl mx-auto">
+<section class="mb-16">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<span class="inline-block px-4 py-1.5 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold tracking-widest uppercase">تركيز سريري</span>
+<h2 class="font-headline text-5xl md:text-7xl font-extrabold text-primary leading-tight">قوة هادئة، <br/>وعاء مستقر.</h2>
+<p class="font-body text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                        ارتفاع ضغط الدم ليس مجرد رقم. إنه إيقاع حيويتك. افهم العلم، أتقن القياس، واستعد هدوء شرايينك.
+                    </p>
+</div>
+</div>
+</section>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-lowest rounded-[1.5rem] p-8">
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">monitor_heart</span>
+<h3 class="font-headline text-2xl font-bold">تعريف الضغط الصامت</h3>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<p class="text-on-surface-variant leading-relaxed">
+                        يحدث ارتفاع ضغط الدم عندما تكون قوة دمك ضد جدران الشرايين مرتفعة باستمرار. بمرور الوقت، يؤدي هذا الضغط إلى تلف الأوعية.
+                    </p>
+<div class="bg-surface-container-low p-6 rounded-xl border-r-4 border-primary">
+<h4 class="font-headline font-bold text-primary mb-2">النسبة الذهبية</h4>
+<p class="text-3xl font-extrabold text-primary mb-1">120/80</p>
+<p class="text-xs uppercase tracking-widest font-bold text-on-surface-variant">انقباضي / انبساطي مم زئبق</p>
+</div>
+</div>
+</div>
+<div class="bg-primary rounded-[1.5rem] p-8 text-on-primary relative overflow-hidden flex flex-col justify-between">
+<h3 class="font-headline text-2xl font-bold mb-4">إتقان الدقة</h3>
+<ul class="space-y-4 font-body text-sm opacity-90">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container">check_circle</span>
+<span>استرح لمدة 5 دقائق قبل القياس.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container">check_circle</span>
+<span>حافظ على قدميك منبسطتين على الأرض.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container">check_circle</span>
+<span>ضع ذراعك في مستوى القلب.</span>
+</li>
+</ul>
+</div>
+</div>
+</main>
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-2xl z-50 rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.04)] md:hidden">
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5" href="Home.html">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">الكبد</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-teal-100 dark:bg-teal-800/40 text-teal-900 dark:text-teal-100 rounded-2xl px-5 py-2.5" href="Hypertension.html">
+<span class="material-symbols-outlined">monitor_heart</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">ضغط الدم</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5" href="Diabetes.html">
+<span class="material-symbols-outlined">bloodtype</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">السكري</span>
+</a>
+</nav>
+</body></html>
