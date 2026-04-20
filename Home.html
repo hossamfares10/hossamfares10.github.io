@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>أتيليه الاستشفاء - صحة الكبد</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed": "#a9edff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#b8c8d9",
+                    "on-error": "#ffffff",
+                    "on-tertiary-fixed-variant": "#394956",
+                    "on-primary-fixed": "#001f26",
+                    "outline": "#6f797c",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#006778",
+                    "on-tertiary-fixed": "#0d1d29",
+                    "primary": "#004d5b",
+                    "tertiary-fixed": "#d4e4f5",
+                    "on-secondary-fixed": "#00201d",
+                    "on-tertiary-container": "#c8d9e9",
+                    "outline-variant": "#bec8cb",
+                    "surface-container-low": "#f2f4f5",
+                    "on-primary-fixed-variant": "#004e5c",
+                    "secondary-fixed-dim": "#90d3ca",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed-variant": "#00504a",
+                    "surface-container-high": "#e6e8e9",
+                    "surface-tint": "#026879",
+                    "secondary": "#236962",
+                    "surface-dim": "#d8dadb",
+                    "tertiary-container": "#4f5f6d",
+                    "surface-variant": "#e1e3e4",
+                    "surface": "#f8fafb",
+                    "surface-bright": "#f8fafb",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#a9ece4",
+                    "error-container": "#ffdad6",
+                    "background": "#f8fafb",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#3f484b",
+                    "secondary-fixed": "#acefe6",
+                    "on-surface": "#191c1d",
+                    "surface-container": "#eceeef",
+                    "surface-container-highest": "#e1e3e4",
+                    "inverse-primary": "#86d2e5",
+                    "tertiary": "#384755",
+                    "primary-fixed-dim": "#86d2e5",
+                    "on-background": "#191c1d",
+                    "on-secondary-container": "#286d66",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#97e3f6",
+                    "inverse-surface": "#2e3132",
+                    "inverse-on-surface": "#eff1f2"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Public Sans"],
+                    "label": ["Public Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-gradient {
+            background: linear-gradient(135deg, #004d5b 0%, #006778 100%);
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl flex items-center justify-between px-6 py-4 w-full shadow-xl shadow-teal-900/5">
+<div class="flex items-center gap-4">
+<h1 class="font-['Manrope'] text-xl font-extrabold text-teal-900 dark:text-teal-50">صحة المجتمع</h1>
+</div>
+<div class="flex items-center gap-6">
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-['Public_Sans'] text-sm font-semibold text-teal-700 underline decoration-2 underline-offset-8" href="Home.html">الكبد</a>
+<a class="font-['Public_Sans'] text-sm font-semibold text-slate-400 hover:text-teal-600 transition-colors" href="Hypertension.html">ضغط الدم</a>
+<a class="font-['Public_Sans'] text-sm font-semibold text-slate-400 hover:text-teal-600 transition-colors" href="Diabetes.html">السكري</a>
+</nav>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+<section class="mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7">
+<span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold tracking-widest uppercase mb-6">تركيز الخبرة</span>
+<h2 class="font-headline text-5xl lg:text-7xl font-extrabold text-primary mb-8 leading-[1.1] tracking-tight">
+                    الحارس الصامت: <span class="text-secondary">صحة الكبد</span>
+</h2>
+<p class="font-body text-xl text-on-surface-variant leading-relaxed max-w-2xl">
+                    يقوم كبدك بأكثر من 500 وظيفة حيوية كل ثانية. في "أتيليه"، نتعامل مع الصحة الأيضية كحرفة دقيقة، حيث ندمج الدقة السريرية مع الرعاية الاستشفائية لطول عمر الكبد.
+                </p>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-square rounded-[3rem] overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="رسوم توضيحية طبية ثلاثية الأبعاد للكبد البشري" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx2SIE_cpLXTVWSYbYr3742xWZJoOP2d4NuPhC1fSbWKwB7TLA0dmRRkvZDjYxwuZVxCM7boi9JUKmwnGcORr6V-_A3oeC8hmdQ2HPchg40RcJO4OXcndLwPi_0HxtXedEUZQv90hncrWEF3eazCdgvLBrPrCnkN71a01S8Dv7-vAuubVGWD_80BNbKsyXRV69GGQetqsOQBqKn7--Otau7k8AyDlhwwSm5qEXGoIRjc46FkZJXqFn5Qe95diizet_b7BPm-T_q6g"/>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur-xl p-6 rounded-2xl shadow-xl max-w-xs border border-white/50">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-secondary text-3xl">verified_user</span>
+<span class="font-headline font-bold text-primary">معيار الاستشفاء</span>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed">رؤى معتمدة سريرياً برعاية كبار أطباء الكبد للتميز الأيضي.</p>
+</div>
+</div>
+</section>
+<section class="mb-16">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-low rounded-[2rem] p-10 flex flex-col justify-between min-h-[400px] relative overflow-hidden group">
+<div class="relative z-10">
+<h3 class="font-headline text-3xl font-bold text-primary mb-6">مركز القيادة الأيضي</h3>
+<p class="text-on-surface-variant max-w-md leading-relaxed mb-8">
+                            من إزالة السموم إلى تخزين العناصر الغذائية وإنتاج الصفراء، افهم الهندسة المعقدة لمرشح جسمك الأساسي.
+                        </p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3 text-secondary font-semibold">
+<span class="material-symbols-outlined">filter_alt</span> تحييد السموم
+                            </li>
+<li class="flex items-center gap-3 text-secondary font-semibold">
+<span class="material-symbols-outlined">analytics</span> تمثيل الطاقة
+                            </li>
+<li class="flex items-center gap-3 text-secondary font-semibold">
+<span class="material-symbols-outlined">inventory_2</span> أرشفة المغذيات
+                            </li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container-highest rounded-[2rem] p-10 flex flex-col border-r-4 border-primary">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">warning</span>
+<h3 class="font-headline text-2xl font-bold text-primary mb-4">تليف الكبد</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                        ندبات الكبد في مراحلها المتأخرة. نركز على التدخل المبكر وأنماط الحياة التجديدية لوقف التقدم.
+                    </p>
+</div>
+<div class="bg-surface-container-lowest rounded-[2rem] p-10 flex flex-col shadow-[0_20px_50px_rgba(0,0,0,0.03)]">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6">coronavirus</span>
+<h3 class="font-headline text-2xl font-bold text-primary mb-4">التهاب الكبد أ، ب، ج</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                        التهاب فيروسي لأنسجة الكبد. أحدثت العلاجات الحديثة ثورة في إدارة الحمل الفيروسي والتعافي.
+                    </p>
+</div>
+<div class="md:col-span-2 bg-primary text-on-primary rounded-[2rem] p-10 flex flex-col md:flex-row gap-10">
+<div class="flex-1">
+<h3 class="font-headline text-3xl font-bold mb-6">اليقظة والأعراض</h3>
+<p class="text-primary-fixed-dim mb-8">الاكتشاف المبكر هو حجر الزاوية في الرعاية الاستشفائية. انتبه لهذه المؤشرات الصامتة.</p>
+<div class="grid grid-cols-2 gap-6">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-fixed">light_mode</span>
+<span class="text-sm font-medium">اليرقان</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-fixed">water_drop</span>
+<span class="text-sm font-medium">احتباس السوائل</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-fixed">bedtime</span>
+<span class="text-sm font-medium">التعب المزمن</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-fixed">clinical_notes</span>
+<span class="text-sm font-medium">تغير في الهضم</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-24 px-4">
+<div class="flex items-center justify-between mb-12">
+<div>
+<h3 class="font-headline text-3xl font-bold text-primary mb-2">الروتين الوقائي</h3>
+<p class="text-on-surface-variant">عادات استراتيجية للمرونة الأيضية.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group">
+<div class="w-16 h-16 rounded-2xl bg-secondary-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-secondary-container text-3xl">set_meal</span>
+</div>
+<h4 class="font-headline text-lg font-bold mb-3">تغذية الكبد</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">إعطاء الأولوية للألياف، الدهون الصحية، والبروتينات الخالية من الدهون لتقليل إجهاد الكبد.</p>
+</div>
+<div class="group">
+<div class="w-16 h-16 rounded-2xl bg-tertiary-fixed flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-tertiary-fixed text-3xl">no_drinks</span>
+</div>
+<h4 class="font-headline text-lg font-bold mb-3">الاعتدال</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">الحد من المواد التي تسبب الالتهاب الأيضي والتندب.</p>
+</div>
+<div class="group">
+<div class="w-16 h-16 rounded-2xl bg-primary-fixed flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary-fixed text-3xl">exercise</span>
+</div>
+<h4 class="font-headline text-lg font-bold mb-3">حياة ديناميكية</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">تساعد الحركة المنتظمة في معالجة الدهون ومنع ترسبها.</p>
+</div>
+<div class="group">
+<div class="w-16 h-16 rounded-2xl bg-surface-container-highest flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">medical_information</span>
+</div>
+<h4 class="font-headline text-lg font-bold mb-3">الفحص</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">اختبارات الإنزيمات الروتينية والموجات فوق الصوتية ترصد التغييرات مبكراً.</p>
+</div>
+</div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-2xl z-50 rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.04)] md:hidden">
+<a class="flex flex-col items-center justify-center bg-teal-100 dark:bg-teal-800/40 text-teal-900 dark:text-teal-100 rounded-2xl px-5 py-2.5 transition-all active:scale-90" href="Home.html">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">الكبد</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5 transition-all active:scale-90" href="Hypertension.html">
+<span class="material-symbols-outlined">monitor_heart</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">ضغط الدم</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5 transition-all active:scale-90" href="Diabetes.html">
+<span class="material-symbols-outlined">bloodtype</span>
+<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">السكري</span>
+</a>
+</nav>
+</body></html>
