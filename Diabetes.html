@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html class="light" lang="ar" dir="rtl"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>بوابة السكري | أتيليه الاستشفاء</title>
+<title>بوابة السكري | المعهد التجديدي</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Public_Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
       tailwind.config = {
@@ -67,9 +68,9 @@
                     "full": "9999px"
             },
             "fontFamily": {
-                    "headline": ["Manrope"],
-                    "body": ["Public Sans"],
-                    "label": ["Public Sans"]
+                    "headline": ["Cairo"],
+                    "body": ["Cairo"],
+                    "label": ["Cairo"]
             }
           },
         },
@@ -79,72 +80,129 @@
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
-        body { font-family: 'Public Sans', sans-serif; min-height: max(884px, 100dvh); }
-        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        body {
+          min-height: max(884px, 100dvh);
+          font-family: 'Cairo', sans-serif;
+        }
+        h1, h2, h3, h4 { font-family: 'Cairo', sans-serif; }
     </style>
 </head>
 <body class="bg-surface text-on-surface min-h-screen pb-32">
+<!-- TopAppBar -->
 <nav class="fixed top-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl shadow-teal-900/5">
 <div class="flex items-center gap-4">
-<span class="font-['Manrope'] text-xl font-extrabold text-teal-900 tracking-tight">صحة المجتمع</span>
+<span class="font-['Cairo'] text-xl font-extrabold text-teal-900 tracking-tight">صحة المجتمع</span>
 </div>
 <div class="hidden md:flex gap-8 items-center">
 <a class="text-slate-500 hover:text-teal-700 font-medium transition-colors" href="Home.html">الكبد</a>
-<a class="text-slate-500 hover:text-teal-700 font-medium transition-colors" href="Hypertension.html">ضغط الدم</a>
+<a class="text-slate-500 hover:text-teal-700 font-medium transition-colors" href="Hypertension.html">ارتفاع ضغط الدم</a>
 <a class="text-teal-700 font-bold" href="Diabetes.html">السكري</a>
 </div>
 </nav>
+<!-- Main Content Canvas -->
 <main class="pt-24 px-6 md:px-12 max-w-7xl mx-auto space-y-12">
+<!-- Hero Section -->
 <header class="py-12 md:py-20 max-w-4xl">
-<span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">بوابة المريض</span>
-<h1 class="text-5xl md:text-7xl font-extrabold text-primary leading-[1.1] tracking-tight mb-8">
+<span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">بوابة المرضى</span>
+<h1 class="text-5xl md:text-7xl font-extrabold text-primary leading-[1.3] tracking-tight mb-8">
                 التناغم في <span class="text-secondary italic">التوازن</span>: التعايش مع السكري.
             </h1>
 <p class="text-xl text-on-surface-variant leading-relaxed font-light">
-                فهم مرض السكري هو الخطوة الأولى لاستعادة إيقاع حياتك. سواء كنت تدير النوع الأول أو الثاني، فنحن نوفر الدقة والتعاطف اللازمين لرحلة استشفائية.
+                فهم السكري هو الخطوة الأولى نحو استعادة إيقاع حياتك. سواء كنت تدير النوع الأول أو الثاني، نوفر لك الدقة والتعاطف اللازمين لرحلة تجديدية.
             </p>
 </header>
+<!-- Bento Grid -->
 <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Type 1 vs Type 2 -->
 <div class="md:col-span-2 bg-surface-container-lowest rounded-xl p-8 flex flex-col md:flex-row gap-8 shadow-sm">
 <div class="flex-1 space-y-4">
 <h2 class="text-2xl font-bold text-primary">تحديد الطيف</h2>
-<p class="text-on-surface-variant leading-relaxed">يتجلى السكري بطرق مختلفة. التعرف على الفروق الدقيقة بين النوع الأول — استجابة مناعية — والنوع الثاني — مقاومة أيضية — يسمح باستراتيجيات رعاية فعالة ومستهدفة.</p>
+<p class="text-on-surface-variant leading-relaxed">يتجلى السكري بطرق مختلفة. إدراك الفروق الدقيقة بين النوع الأول—استجابة مناعية ذاتية—والنوع الثاني—مقاومة استقلابية—يتيح استراتيجيات رعاية مستهدفة وفعّالة.</p>
 <div class="flex flex-wrap gap-3 pt-4">
 <span class="px-4 py-2 bg-tertiary-fixed text-on-tertiary-fixed rounded-full text-sm font-semibold">مناعة ذاتية</span>
 <span class="px-4 py-2 bg-secondary-fixed text-on-secondary-fixed rounded-full text-sm font-semibold">مقاومة الأنسولين</span>
 </div>
 </div>
+<div class="flex-1 rounded-xl overflow-hidden min-h-[240px]">
+<img alt="صورة مقرّبة لمستشعر مراقبة الغلوكوز المستمر الحديث" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXTuaMOnvJe65yzxsY2KCnub_mMRB3UnoFALVg-XKqrzGAx6s7-9nMy3UymTFTyTTIlRTocUEWnqsTTlRcGUVINw1CFbbzkHpBZx2ENSaEMivxk_0SZGA_mVCjH7Y1vToC3Af7WgVCNvkyMgYTxPfHGgEnF4Anzh47fgnfNx-FU27l8oCnCD19Fn1qnPjufF-3kCr-eJYJ3VCKVw99vUL1WZx9K75Qq4fCyd7SZtKurRQjXNkY8Lec1a4IR5jUddQx0Aq6bR9QI6I"/>
 </div>
+</div>
+<!-- Monitoring Card -->
 <div class="bg-surface-container-lowest rounded-xl p-8 border-r-4 border-primary shadow-sm space-y-6">
 <div class="flex justify-between items-start">
 <div class="w-12 h-12 bg-primary-fixed flex items-center justify-center rounded-lg">
 <span class="material-symbols-outlined text-primary">monitor_heart</span>
 </div>
-<span class="text-xs font-bold text-outline uppercase tracking-tighter">وقت حقيقي</span>
+<span class="text-xs font-bold text-outline uppercase tracking-tighter">الوقت الفعلي</span>
 </div>
 <h3 class="text-xl font-bold text-primary">إيقاع المراقبة</h3>
-<p class="text-sm text-on-surface-variant leading-relaxed">تحول مراقبة الجلوكوز الدقيقة البيانات إلى حوار مع جسمك. تتبع الارتفاعات والانخفاضات لتجد مركز استقرارك.</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">تحوّل مراقبة الغلوكوز الدقيقة البيانات إلى حوار مع جسمك. تتبع الذروات والقيعان للعثور على مركزك المستقر.</p>
+<div class="w-full py-3 bg-surface-container-highest text-on-surface-variant rounded-md font-semibold text-sm text-center">الجهاز متصل</div>
 </div>
+<!-- Nutrition -->
 <div class="bg-surface-container-low rounded-xl p-8 flex flex-col justify-between space-y-6">
 <div>
 <h3 class="text-xl font-bold text-primary mb-2">أتيليه التغذية</h3>
-<p class="text-sm text-on-surface-variant">الغذاء هو الدواء، المنسق لملفك الأيضي الخاص. أعطِ الأولوية للألياف والأطعمة منخفضة المؤشر الجلايسيمي.</p>
+<p class="text-sm text-on-surface-variant">الغذاء دواء، مُعدّ خصيصاً لملفك الاستقلابي. أعطِ الأولوية للخيارات الغنية بالألياف ذات المؤشر الغلايسيمي المنخفض.</p>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="aspect-square rounded-lg overflow-hidden">
+<img alt="سلطة صحية نابضة بالألوان" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAebtKPGXCHOvfh_V4R9GzPZLyK-gawD5oKKKyS2pa4l_DEaQC1L3t7NL1MkJR3olQBdtanDStTdC9O8_TDfXDdwEnh0OJ2FrqOOjESxbzVhTZCJ0jWnycSsCZSFwC2p84SKHDCA4HMgz5-GrNJqd3XjcrTzKN-aYFDfewMisBJnBLdbFBSIVaSlOCJnOjIqHkgOThPWqLW6Zzv4rtm38AZe2MCgeDQd2kG4cZRgr2x4dBQd1_lSfPR_1U-KtftYWe5Y1MI_Gsfv2M"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden">
+<img alt="حمضيات وتوت طازج" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBG1YgDLxj8sggBUT_XcaabRC3nHVtc1GfToMW_nrZ_zLU_SoAEFRQbDp2hY09sp4n52glUu1j7_zmFVCe6ctNVFmPpiN21Flcqsfv94bpPKahEbliHXUM5CThL-3LKdDvIZQgvfwlTUII2UFSEkVCAPxWARF_mlD-TAl6Cqxm3O7XOMGSkjMKarFym2qX6APZHd6mNaNXgVNSW79yGDv3YN3wSLKs7QOUIBO5ud1dZjYyZQpANfWACQoPjkzThR0QcO6qSi8V7wdc"/>
+</div>
+</div>
+</div>
+<!-- Checkups Card -->
+<div class="md:col-span-2 bg-gradient-to-br from-primary to-primary-container rounded-xl p-8 text-on-primary flex items-center">
+<div class="max-w-md space-y-4">
+<h3 class="text-3xl font-bold">النبض الأساسي</h3>
+<p class="text-primary-fixed/80 font-light leading-relaxed">التقييمات السريرية المنتظمة هي درع رحلتك. تضمن الفحوصات السنوية لـ HbA1c ووظائف الكلى وصحة العين عدم إغفال أي تفصيل.</p>
+</div>
+<div class="hidden md:block flex-1 mr-12 opacity-20">
+<span class="material-symbols-outlined text-[120px]" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
 </div>
 </div>
 </section>
+<!-- Navigation -->
+<section class="py-12 border-t border-outline-variant/10">
+<h4 class="text-sm font-bold text-outline uppercase tracking-widest mb-8 text-center">تابع رحلتك</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<a class="group flex items-center gap-6 p-6 bg-surface-container-low rounded-xl transition-all hover:bg-surface-container-high" href="Home.html">
+<div class="w-14 h-14 rounded-full bg-secondary-container flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-secondary-container">medical_services</span>
+</div>
+<div>
+<span class="block font-bold text-primary group-hover:text-secondary">صحة الكبد</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">رعاية تجديدية ودعم</span>
+</div>
+</a>
+<a class="group flex items-center gap-6 p-6 bg-surface-container-low rounded-xl transition-all hover:bg-surface-container-high" href="Hypertension.html">
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-tertiary-fixed">monitor_heart</span>
+</div>
+<div>
+<span class="block font-bold text-primary group-hover:text-secondary">إدارة ارتفاع ضغط الدم</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">دقة وعائية ومراقبة</span>
+</div>
+</a>
+</div>
+</section>
 </main>
+<!-- BottomNavBar -->
 <nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-2xl rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.04)] z-50">
-<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5" href="Home.html">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2.5 ease-out duration-300 transform active:scale-90 hover:text-teal-600" href="#">
 <span class="material-symbols-outlined">medical_services</span>
-<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">الكبد</span>
+<span class="font-['Cairo'] text-[11px] font-semibold uppercase tracking-wider mt-1">الكبد</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-2.5" href="Hypertension.html">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2.5 ease-out duration-300 transform active:scale-90 hover:text-teal-600" href="#">
 <span class="material-symbols-outlined">monitor_heart</span>
-<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">ضغط الدم</span>
+<span class="font-['Cairo'] text-[11px] font-semibold uppercase tracking-wider mt-1">ضغط الدم</span>
 </a>
-<a class="flex flex-col items-center justify-center bg-teal-100 dark:bg-teal-800/40 text-teal-900 dark:text-teal-100 rounded-2xl px-5 py-2.5" href="Diabetes.html">
-<span class="material-symbols-outlined">bloodtype</span>
-<span class="font-['Public_Sans'] text-[11px] font-semibold uppercase tracking-wider mt-1">السكري</span>
+<a class="flex flex-col items-center justify-center bg-teal-100 dark:bg-teal-800/40 text-teal-900 dark:text-teal-100 rounded-2xl px-5 py-2.5 ease-out duration-300 transform active:scale-90" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">bloodtype</span>
+<span class="font-['Cairo'] text-[11px] font-semibold uppercase tracking-wider mt-1">السكري</span>
 </a>
 </nav>
 </body></html>
